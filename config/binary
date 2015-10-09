@@ -42,8 +42,8 @@ LB_ZSYNC="true"
 LB_BUILD_WITH_CHROOT="true"
 
 # $LB_DEBIAN_INSTALLER: set debian-installer
-# (Default: false)
-LB_DEBIAN_INSTALLER="false"
+# (Default: live)
+LB_DEBIAN_INSTALLER="live"
 
 # $LB_DEBIAN_INSTALLER_DISTRIBUTION: set debian-installer suite
 # (Default: empty)
@@ -74,16 +74,16 @@ LB_HDD_SIZE="auto"
 LB_ISO_APPLICATION="Debian Live"
 
 # $LB_ISO_PREPARER: set iso preparer
-# (Default: live-build $VERSION; http://live-systems.org/devel/live-build)
-LB_ISO_PREPARER="live-build $VERSION; http://live-systems.org/devel/live-build"
+# (Default: live-build 4.0.3-1; http://live-systems.org/devel/live-build)
+LB_ISO_PREPARER="live-build 4.0.3-1; http://live-systems.org/devel/live-build"
 
 # $LB_ISO_PUBLISHER: set iso publisher
 # (Default: Live Systems project; http://live-systems.org/; debian-live@lists.debian.org)
 LB_ISO_PUBLISHER="Live Systems project; http://live-systems.org/; debian-live@lists.debian.org"
 
 # $LB_ISO_VOLUME: set iso volume (max 32 chars)
-# (Default: Debian jessie $(date +%Y%m%d-%H:%M))
-LB_ISO_VOLUME="Debian jessie $(date +%Y%m%d-%H:%M)"
+# (Default: Debian jessie 20151009-17:06)
+LB_ISO_VOLUME="Debian jessie 20151009-17:06"
 
 # $LB_JFFS2_ERASEBLOCK: set jffs2 eraseblock size
 # (Default: unset)
@@ -98,8 +98,8 @@ LB_MEMTEST="none"
 LB_LOADLIN="false"
 
 # $LB_WIN32_LOADER: set win32-loader
-# (Default: false)
-LB_WIN32_LOADER="false"
+# (Default: true)
+LB_WIN32_LOADER="true"
 
 # $LB_NET_ROOT_FILESYSTEM: set netboot filesystem
 # (Default: nfs)

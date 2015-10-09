@@ -17,8 +17,8 @@ LB_APT_HTTP_PROXY=""
 LB_APT_PIPELINE=""
 
 # $LB_APT_RECOMMENDS: set apt/aptitude recommends
-# (Default: true)
-LB_APT_RECOMMENDS="true"
+# (Default: false)
+LB_APT_RECOMMENDS="false"
 
 # $LB_APT_SECURE: set apt/aptitude security
 # (Default: true)
@@ -123,5 +123,5 @@ APT_OPTIONS="--yes"
 APTITUDE_OPTIONS="--assume-yes"
 DEBOOTSTRAP_OPTIONS=""
 CDEBOOTSTRAP_OPTIONS=""
-GZIP_OPTIONS="-6 --rsyncable"
+GZIP_OPTIONS="-6  --rsyncable"
 ISOHYBRID_OPTIONS=""
