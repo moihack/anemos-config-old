@@ -13,6 +13,7 @@ lb config noauto \
 	--firmware-chroot true \
 	--ignore-system-defaults \
 	--linux-flavours 686-pae \
+	--mirror-bootstrap "http://ftp.gr.debian.org/debian/" \
 	--mode debian \
 	--linux-packages "linux-image linux-headers" \
 	--win32-loader true \
