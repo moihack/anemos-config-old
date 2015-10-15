@@ -1,3 +1,13 @@
 live-boot
 live-config
 live-config-systemd
+live-tools
+user-setup
+locales
+locales-all
+sudo
+iproute
+iproute2
+keyboard-configuration
+rsync
+uuid-runtime
