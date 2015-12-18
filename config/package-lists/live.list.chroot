@@ -11,3 +11,6 @@ iproute2
 keyboard-configuration
 rsync
 uuid-runtime
+pciutils
+alsa-base
+alsa-utils

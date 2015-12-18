@@ -9,12 +9,16 @@ lb config noauto \
 	--binary-images iso-hybrid \
 	--clean \
 	--debian-installer live \
+	--debian-installer-distribution jessie \
+	--debian-installer-gui true \
+	--iso-publisher moihack \
 	--distribution jessie \
 	--firmware-chroot true \
 	--ignore-system-defaults \
 	--linux-flavours 686-pae \
 	--mirror-bootstrap "http://ftp.gr.debian.org/debian/" \
 	--mode debian \
+	--system live \
 	--linux-packages "linux-image linux-headers" \
 	--win32-loader true \
 "${@}"
