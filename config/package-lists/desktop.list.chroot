@@ -12,6 +12,10 @@ xfce4-datetime-plugin
 xfce4-xkb-plugin
 xfce4-whiskermenu-plugin
 xfce4-terminal
+xfce4-notes-plugin
+xfce4-battery-plugin
+xfce4-screenshooter
+xfce4-artwork
 
 gtk2-engines-murrine
 qt4-qtconfig
