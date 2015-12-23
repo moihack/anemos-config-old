@@ -1,2 +1,3 @@
-FileManager=pcmanfm
-
+FileManager=Thunar
+WebBrowser=iceweasel
+TerminalEmulator=xfce4-terminal

@@ -8,15 +8,11 @@ style "panel" = "dark"
 	ythickness = 0
 
 	bg_pixmap[NORMAL]	= "Panel/panel.png"
-	base[NORMAL] = "#000000"
-	bg[NORMAL] = "#4c4c4c" #button color
-	bg[ACTIVE] = "#000000"
-	bg[PRELIGHT] = "#1f1f1f" #mouseover panel color
-	fg[NORMAL] = "#fff"
-	fg[ACTIVE] = "#fff"
-	fg[PRELIGHT] = "#fff"
-
-	text[NORMAL]		= @base_color
+	base[NORMAL] 		= "#000000"
+	bg[NORMAL] 		= "#151515"
+	bg[PRELIGHT]		= "#1f1f1f"	
+	bg[SELECTED]		= "#004D8C"
+	text[NORMAL]		= @fg_color_dark
 
 	engine "murrine" {
 		colorize_scrollbar = TRUE

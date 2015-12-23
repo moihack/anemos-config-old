@@ -1119,7 +1119,7 @@ StScrollBar {
 #dash {
 	font-size: 20pt;
 	background: rgba(0,0,0,0.9);
-	border-color: transparent;
+	border-color: rgba(0,0,0,1.0);
 	box-shadow: 0;
 }
 
@@ -1379,7 +1379,7 @@ StScrollBar {
 		color: #fff;
 		font-weight: bold;
 		background-color: #000;
-		border-color: rgba(0,0,0,0.0);
+		border-color: rgba(0,0,0,1.0);
 		box-shadow: none;
 		border-radius: 0px;
 		text-shadow:none;}
@@ -1491,7 +1491,7 @@ StScrollBar {
 	box-shadow: none;
 	text-shadow:none; }
 	.notification-icon-button:hover {
-		background-color: #fff; }
+		background-color: #000; }
 	.notification-icon-button > StIcon {
 		icon-size: 16px;
 		width: 16px;

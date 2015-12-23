@@ -84,7 +84,7 @@ UnityPanelWidget,
 .menuitem GtkCalendar.button,
 .menuitem GtkCalendar.header,
 .menuitem GtkCalendar.view {
-    background-color: #000
+    background-color: #000;
     color: #fff /*@fg_color*/;
 }
 

@@ -13,7 +13,7 @@
   </property>
   <property name="last-location-bar" type="string" value="ThunarLocationEntry"/>
   <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
-  <property name="last-window-width" type="int" value="680"/>
+  <property name="last-window-width" type="int" value="678"/>
   <property name="last-window-height" type="int" value="480"/>
   <property name="last-window-maximized" type="bool" value="false"/>
   <property name="misc-text-beside-icons" type="bool" value="false"/>
