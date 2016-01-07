@@ -13,17 +13,17 @@
         </property>
         <property name="color2" type="empty"/>
         <property name="color-style" type="empty"/>
-        <property name="image-path" type="string" value="/usr/share/xfce4/backdrops/Aquarius.svg"/>
+        <property name="image-path" type="string" value="/usr/share/xfce4/backdrops/CleanBlue.jpg"/>
         <property name="image-show" type="bool" value="true"/>
-        <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/Aquarius.svg"/>
-        <property name="last-single-image" type="string" value="/usr/share/xfce4/backdrops/Aquarius.svg"/>
+        <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/CleanBlue.jpg"/>
+        <property name="last-single-image" type="string" value="/usr/share/xfce4/backdrops/CleanBlue.jpg"/>
         <property name="image-style" type="int" value="0"/>
         <property name="saturation" type="double" value="1.000000"/>
       </property>
     </property>
   </property>
   <property name="desktop-icons" type="empty">
-    <property name="icon-size" type="uint" value="39"/>
+    <property name="icon-size" type="uint" value="32"/>
     <property name="show-thumbnails" type="bool" value="true"/>
     <property name="style" type="int" value="2"/>
     <property name="file-icons" type="empty">

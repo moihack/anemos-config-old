@@ -2,7 +2,7 @@
 Architecture: i386
 Archive-Areas: main contrib non-free
 Distribution: jessie
-Mirror-Bootstrap: http://ftp.gr.debian.org/debian/
+Mirror-Bootstrap: http://ftp.debian.org/debian/
 
 [FIXME]
 Configuration-Version: 4.0.3
