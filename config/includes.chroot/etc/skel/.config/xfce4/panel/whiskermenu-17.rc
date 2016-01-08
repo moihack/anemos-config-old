@@ -1,5 +1,5 @@
-favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-web-browser.desktop,lxtask.desktop
-recent=lxtask.desktop,exo-terminal-emulator.desktop,exo-file-manager.desktop,xfce-ui-settings.desktop,exo-web-browser.desktop,synaptic.desktop,xfce4-terminal.desktop,pcmanfm.desktop,iceweasel.desktop,xfburn.desktop
+favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,google-chrome.desktop,lxtask.desktop
+recent=lxtask.desktop,exo-terminal-emulator.desktop,exo-file-manager.desktop,xfce-ui-settings.desktop,google-chrome.desktop,synaptic.desktop,xfce4-terminal.desktop,pcmanfm.desktop,xfburn.desktop
 button-title=Applications Menu
 button-icon=xfce4-whiskermenu
 button-single-row=false
