@@ -16,6 +16,7 @@ lb config noauto \
 	--firmware-binary true \
 	--firmware-chroot true \
 	--ignore-system-defaults \
+	--linux-flavours 586 \
 	--linux-flavours 686-pae \
 	--mode debian \
 	--system live \

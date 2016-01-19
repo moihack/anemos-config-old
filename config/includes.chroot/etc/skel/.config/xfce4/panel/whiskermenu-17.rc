@@ -1,9 +1,9 @@
 favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,google-chrome.desktop,lxtask.desktop
 recent=lxtask.desktop,exo-terminal-emulator.desktop,exo-file-manager.desktop,xfce-ui-settings.desktop,google-chrome.desktop,synaptic.desktop,xfce4-terminal.desktop,pcmanfm.desktop,xfburn.desktop
-button-title=Applications Menu
-button-icon=xfce4-whiskermenu
+button-title=Start
+button-icon=debian-logo
 button-single-row=false
-show-button-title=false
+show-button-title=true
 show-button-icon=true
 launcher-show-name=true
 launcher-show-description=false
@@ -53,4 +53,3 @@ name=Open URI
 pattern=^(file|http|https):\\/\\/(.*)$
 command=exo-open \\0
 regex=true
-
