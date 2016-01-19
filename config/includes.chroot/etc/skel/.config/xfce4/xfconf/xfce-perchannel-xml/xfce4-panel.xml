@@ -8,17 +8,18 @@
       <property name="position" type="string" value="p=8;x=512;y=752"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="30"/>
+      <property name="size" type="uint" value="36"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="17"/>
-        <value type="int" value="3"/>
+        <value type="int" value="2"/>
         <value type="int" value="15"/>
         <value type="int" value="6"/>
         <value type="int" value="1"/>
         <value type="int" value="18"/>
         <value type="int" value="16"/>
+        <value type="int" value="10"/>
       </property>
-      <property name="background-style" type="uint" value="1"/>
+      <property name="background-style" type="uint" value="0"/>
       <property name="background-color" type="array">
         <value type="uint" value="0"/>
         <value type="uint" value="0"/>
@@ -28,17 +29,12 @@
       <property name="background-alpha" type="uint" value="75"/>
       <property name="leave-opacity" type="uint" value="95"/>
       <property name="enter-opacity" type="uint" value="95"/>
+      <property name="background-image" type="string" value="/home/moihack/Downloads/2022725-wallpaper_625864_Iz6NK8G.jpg"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="nrows" type="uint" value="1"/>
     </property>
   </property>
   <property name="plugins" type="empty">
-    <property name="plugin-3" type="string" value="tasklist">
-      <property name="window-scrolling" type="bool" value="false"/>
-      <property name="flat-buttons" type="bool" value="false"/>
-      <property name="show-labels" type="bool" value="false"/>
-      <property name="show-handle" type="bool" value="false"/>
-      <property name="sort-order" type="uint" value="1"/>
-      <property name="grouping" type="uint" value="0"/>
-    </property>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
@@ -46,11 +42,14 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="show-frame" type="bool" value="false"/>
       <property name="names-visible" type="array">
+        <value type="string" value="thunar"/>
         <value type="string" value="pk-update-icon"/>
+        <value type="string" value="docky"/>
         <value type="string" value="networkmanager applet"/>
+        <value type="string" value="task manager"/>
         <value type="string" value="qbittorrent"/>
+        <value type="string" value="bluemindo.py"/>
         <value type="string" value="software updates"/>
-        <value type="string" value="update-notifier"/>
       </property>
       <property name="names-hidden" type="array">
       </property>
@@ -61,6 +60,10 @@
     <property name="plugin-1" type="string" value="mixer">
       <property name="command" type="string" value="xfce4-mixer"/>
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="sound-card" type="string" value="Intel82801AAICHAlsamixer"/>
+      <property name="track" type="string" value="PCM"/>
     </property>
+    <property name="plugin-10" type="string" value="showdesktop"/>
+    <property name="plugin-2" type="string" value="dockbarx"/>
   </property>
 </channel>

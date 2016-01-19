@@ -18,6 +18,10 @@ xfce4-battery-plugin
 xfce4-screenshooter
 xfce4-artwork
 
+dockbarx
+dockbarx-themes-extra
+xfce4-dockbarx-plugin
+
 gtk2-engines-murrine
 qt4-qtconfig
 
