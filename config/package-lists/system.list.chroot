@@ -11,3 +11,7 @@ gnome-system-tools
 gnome-keyring
 pk-update-icon
 xdg-user-dirs
+e2fsprogs
+util-linux
+fuse
+ntfs-3g
