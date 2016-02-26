@@ -10,4 +10,14 @@
 	<startup-notify/>
 	<directories/>
 </action>
+<action>
+	<icon></icon>
+	<name>Add in Audacious Playlist</name>
+	<unique-id>1452864509489729-1</unique-id>
+	<command>audacious -e %F</command>
+	<description></description>
+	<patterns>*</patterns>
+	<directories/>
+	<audio-files/>
+</action>
 </actions>

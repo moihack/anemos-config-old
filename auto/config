@@ -9,14 +9,13 @@ lb config noauto \
 	--binary-images iso-hybrid \
 	--clean \
 	--debian-installer live \
-	--debian-installer-distribution jessie \
+	--debian-installer-distribution daily \
 	--debian-installer-gui true \
 	--iso-publisher moihack \
 	--distribution jessie \
 	--firmware-binary true \
 	--firmware-chroot true \
 	--ignore-system-defaults \
-	--linux-flavours 586 \
 	--linux-flavours 686-pae \
 	--mode debian \
 	--system live \

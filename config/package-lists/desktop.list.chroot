@@ -31,6 +31,7 @@ lightdm-gtk-greeter
 lightdm
 
 plymouth
+plymouth-themes
 plymouth-x11
 
 gstreamer1.0-vaapi
