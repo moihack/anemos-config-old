@@ -1,7 +1,7 @@
 favorites=firefox.desktop,libreoffice-writer.desktop,exo-file-manager.desktop,qBittorrent.desktop,lxtask.desktop,xfce-settings-manager.desktop
 recent=lxtask.desktop,exo-terminal-emulator.desktop,exo-file-manager.desktop,xfce-ui-settings.desktop,firefox.desktop,synaptic.desktop,xfce4-terminal.desktop,xfburn.desktop
-button-title=Start
-button-icon=debian-logo
+button-title=Menu
+button-icon=/usr/share/icons/anemos_whisker_logo.png
 button-single-row=false
 show-button-title=true
 show-button-icon=true

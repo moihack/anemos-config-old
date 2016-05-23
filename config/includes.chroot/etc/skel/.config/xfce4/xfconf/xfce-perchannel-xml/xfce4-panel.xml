@@ -8,9 +8,11 @@
       <property name="position" type="string" value="p=8;x=512;y=752"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="36"/>
+      <property name="size" type="uint" value="29"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="17"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
         <value type="int" value="2"/>
         <value type="int" value="15"/>
         <value type="int" value="6"/>
@@ -30,8 +32,9 @@
       <property name="leave-opacity" type="uint" value="95"/>
       <property name="enter-opacity" type="uint" value="95"/>
       <property name="background-image" type="string" value="/home/moihack/Downloads/2022725-wallpaper_625864_Iz6NK8G.jpg"/>
-      <property name="length-adjust" type="bool" value="true"/>
+      <property name="length-adjust" type="bool" value="false"/>
       <property name="nrows" type="uint" value="1"/>
+      <property name="disable-struts" type="bool" value="false"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -64,6 +67,20 @@
       <property name="track" type="string" value="PCM"/>
     </property>
     <property name="plugin-10" type="string" value="showdesktop"/>
-    <property name="plugin-2" type="string" value="dockbarx"/>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+    </property>
+    <property name="plugin-3" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14636620851.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-4" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="14636620912.desktop"/>
+      </property>
+    </property>
   </property>
 </channel>

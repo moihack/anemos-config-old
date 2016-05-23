@@ -4,19 +4,19 @@ set -e
 
 lb config noauto \
 	--apt-recommends false \
-	--architecture i386 \
+	--architectures amd64 \
 	--archive-areas "main contrib non-free" \
 	--binary-images iso-hybrid \
 	--clean \
 	--debian-installer live \
-	--debian-installer-distribution daily \
+	--debian-installer-distribution jessie \
 	--debian-installer-gui true \
 	--iso-publisher moihack \
 	--distribution jessie \
 	--firmware-binary true \
 	--firmware-chroot true \
 	--ignore-system-defaults \
-	--linux-flavours 686-pae \
+	--linux-flavours amd64 \
 	--mode debian \
 	--system live \
 	--linux-packages "linux-image linux-headers" \
