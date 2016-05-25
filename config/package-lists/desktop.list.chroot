@@ -22,6 +22,11 @@ dockbarx-themes-extra
 xfce4-dockbarx-plugin
 
 gtk2-engines-murrine
+gtk2-engines-nodoka
+gtk2-engines-xfce
+
+faenza-icon-theme
+
 qt4-qtconfig
 
 network-manager-gnome

@@ -1,5 +1,7 @@
 pcmanfm
 gvfs
+gvfs-backends
+mtp-tools
 synaptic
 lxtask
 gnome-packagekit
